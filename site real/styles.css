@@ -1,5 +1,10 @@
 * {
 	box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  height:100vh;
 }
 
 
@@ -21,6 +26,7 @@
 .row{
 	background-color: #e7feff;
 	padding:20px;
+  height:100%;
 	
     text-align:center;
 }

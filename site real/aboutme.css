@@ -3,13 +3,15 @@
 }
 .content1 {  
   display: flex ;
-
-  
+  flex-wrap:wrap;
 }
 .side1 {
   flex:1;
   background-color: grey;
   padding: 20px;
+  margin:30px;
+  height:250px;
+  width:250px;
 }
 
 
@@ -18,17 +20,17 @@
   background-color: white;
   padding: 20px;
   height:500px;
+  margin:10px;
 }
 .main2 {
   flex:1;
   background-color: grey;
   padding: 20px;
+  margin:10px;
+  height:600px;
 }
-@media {
-	max-width: 768px;
-{
-	.content1{
-		display:grid;
+@media (max-width: 768px) {
+	.content1 {
+		flex-direction:column;
 	}
-
 }
