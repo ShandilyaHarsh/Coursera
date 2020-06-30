@@ -1,0 +1,34 @@
+.main{
+	text-align:center;
+}
+.content1 {  
+  display: flex ;
+
+  
+}
+.side1 {
+  flex:1;
+  background-color: grey;
+  padding: 20px;
+}
+
+
+.main1 {
+  flex:1;
+  background-color: white;
+  padding: 20px;
+  height:500px;
+}
+.main2 {
+  flex:1;
+  background-color: grey;
+  padding: 20px;
+}
+@media {
+	max-width: 768px;
+{
+	.content1{
+		display:grid;
+	}
+
+}
