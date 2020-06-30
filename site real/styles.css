@@ -11,6 +11,7 @@ body{
 .navbar{
 	display:flex;
 	background-color: grey;
+
 }
 .navbar a{
 
@@ -24,11 +25,18 @@ body{
 	color:black;
 }
 .row{
-	background-color: #e7feff;
+	background-color: #F5F5DC;
 	padding:20px;
   height:100%;
 	
     text-align:center;
+}
+.image1{
+  max-width:100%;
+  height:auto;
+  padding-top:20px;
+  background-color: #F5F5DC;
+  text-align:center;
 }
 .fakeimg {
   background-color: grey;
