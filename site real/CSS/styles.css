@@ -7,18 +7,26 @@ body{
   height:100vh;
   background-color:#F3F2F1;
   color:#000133;
+  font-family:sans-serif;
 
 }
 .container{
   width:95%;
   margin:auto;
+  margin-top:60px;
+
+
 }
 
 .navbar{
 	display:flex;
 	background-color: #CDC9C9;
   width:100%;
-  align-items: center
+  align-items: center;
+  position:fixed;
+  top:0;
+  z-index: 10;
+  
 
 }
 .navbar a{
@@ -73,7 +81,6 @@ body{
 
 .main {
   flex: 50%;
-  background-color:;
   padding: 20px;
 }
 .footer {
