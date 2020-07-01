@@ -1,3 +1,26 @@
 .myWork {
-	background-color:#e7feff;
+	background-color:#F3F2F1;
+
+}
+.right{
+	display:flex;
+}
+.myWork h2{
+	color:; 
+	background-color: #B6AFA9	;
+	width:150px;
+	margin-bottom: 3px;
+}
+.para{
+	width:50%;
+
+}
+@media (max-width: 768px) {
+	.para
+	 {
+		width:100%;
+	}
+	#image7{
+		display:none;
+	}
 }
