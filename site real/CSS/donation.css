@@ -16,10 +16,7 @@
   margin:10px;
   height:200px;
 }
-@media (max-width: 768px) {
-  .container1 {
-    flex-direction:column;
-  }
+
 }
 .container2 {  
   display: flex ;
@@ -39,20 +36,27 @@
   margin:10px;
   height:200px;
 }
-
-@media (max-width: 768px) {
-  .container2 {
-    flex-direction:column;
-  }
-}
 .random {
   background-color: white;
   padding: 20px;
   height:200px;
   margin:10px;
 }
+
+@media (max-width: 768px) {
+  .container2 {
+    flex-direction:column;
+  }
+}
+
 @media (max-width: 768px) {
   .container1 {
     flex-direction:column;
   }
 }
+@media (max-width: 768px) {
+  .container1 {
+    flex-direction:column;
+  }
+
+  
