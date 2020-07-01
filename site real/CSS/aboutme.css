@@ -4,10 +4,11 @@
 .content1 {  
   display: flex ;
   flex-wrap:wrap;
+  padding:20px;
+  text-align:center;
 }
 .side1 {
   flex:1;
-  background-color: grey;
   padding: 20px;
   margin:10px;
   height:250px;

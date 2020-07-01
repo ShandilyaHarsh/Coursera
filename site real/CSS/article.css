@@ -25,7 +25,7 @@
 		width:50%;
 		   background-color: #F3F2F1 ;
 	}
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 	.para
 	 {
 		width:100%;
