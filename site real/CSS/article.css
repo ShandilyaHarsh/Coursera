@@ -8,7 +8,7 @@
 .container{
 	padding:30px;
 }
-.right{
+.left{
 	
 	width:50%;
 
@@ -19,11 +19,18 @@
 	width:150px;
 	margin-bottom: 3px;
 }
+.paragraph{
+	background-image:url(../Asset/Plain.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	text-align: center;
+
+}
 
 
-#image7{
+.right{
 		width:50%;
-		   background-color: #F3F2F1 ;
+		   
 	}
 @media (max-width: 1024px) {
 	.para

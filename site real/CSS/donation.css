@@ -4,34 +4,29 @@
 }
 .item1 {
   flex:1;
-  background-color: white;
   padding: 20px;
   height:200px;
   margin:10px;
 }
 .item2 {
   flex:1;
-  background-color: grey;
+  
   padding: 20px;
   margin:10px;
   height:200px;
 }
 
-}
-.container2 {  
-  display: flex ;
-  flex-wrap:wrap;
-}
+
+
 .item3 {
   flex:1;
-  background-color: white;
   padding: 20px;
   height:200px;
   margin:10px;
 }
 .item4 {
   flex:1;
-  background-color: grey;
+  
   padding: 20px;
   margin:10px;
   height:200px;
@@ -41,6 +36,16 @@
   padding: 20px;
   height:200px;
   margin:10px;
+}
+.paylink{
+  text-decoration:none;
+  background-color:grey;
+  color:white;
+  padding:5px;
+
+}
+.paylink:hover{
+  background-color:#97694F;
 }
 
 @media (max-width: 768px) {
@@ -54,9 +59,5 @@
     flex-direction:column;
   }
 }
-@media (max-width: 768px) {
-  .container1 {
-    flex-direction:column;
-  }
 
-  
+
