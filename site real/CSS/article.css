@@ -1,38 +1,67 @@
 .myWork {
-	background-color:#F3F2F1;
-	width:100%;
-	display:flex;
 	
+	width:100%;
+	display:grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto;
+	grid-gap: 40px;
 
 }
 .container{
 	padding:30px;
 }
-.left{
-	
-	width:50%;
+.left1{
+	grid-column-start: 1;
+	grid-column-end:2;
+   grid-row-start:1;
+   grid-row-end:2;
 
 }
+.right1{
+	grid-column-start: 2;
+	grid-column-end:3;
+   grid-row-start:2;
+   grid-row-end:3;
+	
+		   
+	}
+.left2{
+	grid-column-start: 1;
+	grid-column-end:2;
+    grid-row-start:3;
+   grid-row-end:4;
+
+}
+.para{
+	width:90%;
+
+}
+
 .myWork h2{
 	 
-	background-color: #B6AFA9	;
+	
 	width:150px;
 	margin-bottom: 3px;
 }
 .paragraph{
-	background-image:url(../Asset/Plain.jpg);
+	
 	background-repeat:no-repeat;
 	background-size: cover;
 	text-align: center;
 
+
+}
+.paragraph h2{
+	background-color: #fff44f; 
+	color:black;
 }
 
 
-.right{
-		width:50%;
+.right1{
+	
 		   
 	}
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
 	.para
 	 {
 		width:100%;

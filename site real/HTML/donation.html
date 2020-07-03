@@ -4,6 +4,10 @@
 	<title>Bookbreath</title>
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	 
+	 <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/donation.css">
+	
 </head>
 <body>
 	<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
@@ -12,12 +16,13 @@
 		<div  class=" navbar">
 			<div class="left">
 			<a  href="index.html">Home</a>
-			<a  href="article.html">My Works</a>
+			<a  href="article.html">Books</a>
 			
-			<a  href="aboutme.html">About me</a>
+			<a  href="aboutme.html">About </a>
 			<a  href="donation.html">Donation</a>
 		    </div>
 			<a class="right" href="#stayupdated" >Stay Updated</a>
+			 
 			
 			
 		</div>
@@ -47,8 +52,11 @@
 				<p> some amount </p>
 			</div>
 			<div class="item4">
-				<h2>Feedback form</h2>
-				<p>something about feedback form</p>
+				<h2>Reader's Column</h2>
+				<form action="../Asset/readers.docx" onsubmit="return validateForm()" method="post" target="_blank">
+                    <input type="text"  name="fname">
+                    <input type="submit" value="Submit">
+                </form>
 				
 			
 		</div>
@@ -60,8 +68,8 @@
 
 	
 		<div class="footer">
-              <h2>Footer</h2>
-        </div>
-
+  <p> © Yash Shandilya.2020. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; All Rights Reserved. </p>
+</div>
+    <script src="../Javascript/readers.js"></script>
 	</body>
 	</html>
