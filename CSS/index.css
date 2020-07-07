@@ -1,3 +1,34 @@
-.imagebutton {
+body {
   background-image: url('../Asset/index.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  padding: 1.2rem;
+  border-radius: 4px;
+  font-size: 24px;
+  background: linear-gradient(45deg, #8432e2, #29f1ffb2);
+  color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 25px 10px rgb(65, 64, 64);
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url('../Asset/cover3.jpg');
+  }
 }
