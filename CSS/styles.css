@@ -77,12 +77,6 @@ h4 {
 .content h2 {
   margin: auto;
 }
-.twitter {
-  text-align: center;
-}
-blockquote.twitter-tweet {
-  background-color: #252525;
-}
 
 .side {
   flex: 50%;
@@ -212,24 +206,25 @@ blockquote.twitter-tweet {
   }
 }
 
-input {
-  display: none;
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
 }
-.submenu {
-  overflow: scroll;
-  margin: auto;
-  width: 50%;
-  height: 600px;
+.item1 {
+  flex: 1;
+  padding: 20px;
+  height: 200px;
+  margin: 10px;
 }
+.item2 {
+  flex: 1;
 
-/*position the label*/
-label {
-  position: relative;
-  display: block;
-  cursor: pointer;
+  padding: 20px;
+  margin: 10px;
+  height: 200px;
 }
-
-/*show the submenu when input is checked*/
-input.submenu {
-  display: block;
+@media (max-width: 768px) {
+  .twitter {
+    height: 50px;
+  }
 }
