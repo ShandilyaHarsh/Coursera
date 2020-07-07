@@ -14,7 +14,7 @@ body {
 }
 
 .btn {
-  
+  text-decoration: none;
   border: none;
   padding: 1.2rem;
   border-radius: 4px;
@@ -30,12 +30,11 @@ body {
 
 @media (max-width: 768px) {
   body {
-  
     background-image: url('../Asset/mock31.jpg');
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    
+
     width: 100%;
   }
 }
