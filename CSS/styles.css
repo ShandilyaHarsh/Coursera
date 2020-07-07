@@ -238,6 +238,21 @@ h4 {
     opacity: 1;
   }
 }
+.know {
+  text-align: center;
+}
+.know h2 {
+  display: inline-block;
+}
+.know a {
+  text-decoration: none;
+  background-color: grey;
+  color: white;
+  padding: 5px;
+}
+.know a:hover {
+  background-color: #97694f;
+}
 
 .container1 {
   display: flex;
