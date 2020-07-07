@@ -2,6 +2,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
 .item1 {
   flex: 1;
   padding: 20px;
