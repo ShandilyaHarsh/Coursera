@@ -29,7 +29,13 @@
 .para {
   width: 90%;
 }
+.heading{
 
+  text-align:center;
+}
+.heading h1{
+  display:inline-block;
+}
 .myWork h2 {
   width: 200px;
   margin-bottom: 3px;

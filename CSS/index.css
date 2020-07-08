@@ -22,6 +22,8 @@ body {
   background: black;
   color: rgb(142, 173, 31);
   font-family: Courier New;
+  position:relative;
+  bottom :35px;
 }
 
 .btn:hover {
@@ -30,11 +32,11 @@ body {
 
 @media (max-width: 768px) {
   body {
-    background-image: url('../Asset/mock31.jpg');
+    background-image: url('../Asset/mock32.jpg');
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-
+    
     width: 100%;
   }
 }
